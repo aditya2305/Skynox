@@ -92,14 +92,20 @@ img {
 
 .subtext {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .fixedWidth {
   display: block;
   height: 500px;
+}
+
+a {
+  font-size: 15px;
 }
