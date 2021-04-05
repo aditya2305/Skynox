@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+html,
+body {
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto";
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.division {
+  background-color: white;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.checked {
+  color: #50dbb4;
+  width: 17px;
+}
+
+.section {
+  display: block;
+  flex-direction: column;
+
+  padding: 20px 65px;
+}
+
+.section h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.button1 {
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  font-family: inherit;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.footsection {
+  padding: 15px 0;
+  max-width: 200px;
+}
+
+.flexstyled {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4 {
+  font-size: 30px;
+  margin: 25px 0;
+}
+
+.image {
+  margin-top: 40px;
+}
+
+img {
+  height: 450px;
+}
+
+.subtext {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.fixedWidth {
+  display: block;
+  height: 500px;
+}
