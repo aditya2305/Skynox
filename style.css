@@ -28,9 +28,6 @@ body {
 }
 
 .section {
-  display: block;
-  flex-direction: column;
-
   padding: 20px 65px;
 }
 
@@ -75,6 +72,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 h4 {
@@ -108,4 +106,25 @@ p {
 
 a {
   font-size: 15px;
+}
+
+@media screen and (max-width: 840px) {
+  button {
+    max-height: 70px;
+    margin-bottom: 30px;
+  }
+  .flexstyled {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }
